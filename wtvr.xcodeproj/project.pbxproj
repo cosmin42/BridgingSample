@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		736F512A2C1DE30400292EC1 /* wtvrApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736F51292C1DE30400292EC1 /* wtvrApp.swift */; };
+		736F512C2C1DE30400292EC1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736F512B2C1DE30400292EC1 /* ContentView.swift */; };
+		736F512E2C1DE30600292EC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 736F512D2C1DE30600292EC1 /* Assets.xcassets */; };
+		736F51312C1DE30600292EC1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 736F51302C1DE30600292EC1 /* Preview Assets.xcassets */; };
+		736F513C2C1DE30700292EC1 /* wtvrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736F513B2C1DE30700292EC1 /* wtvrTests.swift */; };
+		736F51462C1DE30700292EC1 /* wtvrUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736F51452C1DE30700292EC1 /* wtvrUITests.swift */; };
+		736F51482C1DE30700292EC1 /* wtvrUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736F51472C1DE30700292EC1 /* wtvrUITestsLaunchTests.swift */; };
+		736F51562C1DE39B00292EC1 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 736F51552C1DE39B00292EC1 /* Test.m */; };
+		736F51592C1DF7CC00292EC1 /* Test2.mm in Sources */ = {isa = PBXBuildFile; fileRef = 736F51582C1DF7CC00292EC1 /* Test2.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		736F51382C1DE30700292EC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 736F511E2C1DE30400292EC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 736F51252C1DE30400292EC1;
+			remoteInfo = wtvr;
+		};
+		736F51422C1DE30700292EC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 736F511E2C1DE30400292EC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 736F51252C1DE30400292EC1;
+			remoteInfo = wtvr;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		736F51262C1DE30400292EC1 /* wtvr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wtvr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		736F51292C1DE30400292EC1 /* wtvrApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wtvrApp.swift; sourceTree = "<group>"; };
+		736F512B2C1DE30400292EC1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		736F512D2C1DE30600292EC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		736F51302C1DE30600292EC1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		736F51322C1DE30600292EC1 /* wtvr.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = wtvr.entitlements; sourceTree = "<group>"; };
+		736F51372C1DE30700292EC1 /* wtvrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wtvrTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		736F513B2C1DE30700292EC1 /* wtvrTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wtvrTests.swift; sourceTree = "<group>"; };
+		736F51412C1DE30700292EC1 /* wtvrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wtvrUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		736F51452C1DE30700292EC1 /* wtvrUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wtvrUITests.swift; sourceTree = "<group>"; };
+		736F51472C1DE30700292EC1 /* wtvrUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wtvrUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		736F51542C1DE39B00292EC1 /* wtvr-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "wtvr-Bridging-Header.h"; sourceTree = "<group>"; };
+		736F51552C1DE39B00292EC1 /* Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
+		736F51582C1DF7CC00292EC1 /* Test2.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = Test2.mm; sourceTree = "<group>"; };
+		736F515A2C1DF7F100292EC1 /* Test_header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test_header.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		736F51232C1DE30400292EC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		736F51342C1DE30700292EC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		736F513E2C1DE30700292EC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		736F511D2C1DE30400292EC1 = {
+			isa = PBXGroup;
+			children = (
+				736F515A2C1DF7F100292EC1 /* Test_header.h */,
+				736F51582C1DF7CC00292EC1 /* Test2.mm */,
+				736F51552C1DE39B00292EC1 /* Test.m */,
+				736F51282C1DE30400292EC1 /* wtvr */,
+				736F513A2C1DE30700292EC1 /* wtvrTests */,
+				736F51442C1DE30700292EC1 /* wtvrUITests */,
+				736F51272C1DE30400292EC1 /* Products */,
+				736F51542C1DE39B00292EC1 /* wtvr-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		736F51272C1DE30400292EC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				736F51262C1DE30400292EC1 /* wtvr.app */,
+				736F51372C1DE30700292EC1 /* wtvrTests.xctest */,
+				736F51412C1DE30700292EC1 /* wtvrUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		736F51282C1DE30400292EC1 /* wtvr */ = {
+			isa = PBXGroup;
+			children = (
+				736F51292C1DE30400292EC1 /* wtvrApp.swift */,
+				736F512B2C1DE30400292EC1 /* ContentView.swift */,
+				736F512D2C1DE30600292EC1 /* Assets.xcassets */,
+				736F51322C1DE30600292EC1 /* wtvr.entitlements */,
+				736F512F2C1DE30600292EC1 /* Preview Content */,
+			);
+			path = wtvr;
+			sourceTree = "<group>";
+		};
+		736F512F2C1DE30600292EC1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				736F51302C1DE30600292EC1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		736F513A2C1DE30700292EC1 /* wtvrTests */ = {
+			isa = PBXGroup;
+			children = (
+				736F513B2C1DE30700292EC1 /* wtvrTests.swift */,
+			);
+			path = wtvrTests;
+			sourceTree = "<group>";
+		};
+		736F51442C1DE30700292EC1 /* wtvrUITests */ = {
+			isa = PBXGroup;
+			children = (
+				736F51452C1DE30700292EC1 /* wtvrUITests.swift */,
+				736F51472C1DE30700292EC1 /* wtvrUITestsLaunchTests.swift */,
+			);
+			path = wtvrUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		736F51252C1DE30400292EC1 /* wtvr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 736F514B2C1DE30700292EC1 /* Build configuration list for PBXNativeTarget "wtvr" */;
+			buildPhases = (
+				736F51222C1DE30400292EC1 /* Sources */,
+				736F51232C1DE30400292EC1 /* Frameworks */,
+				736F51242C1DE30400292EC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wtvr;
+			productName = wtvr;
+			productReference = 736F51262C1DE30400292EC1 /* wtvr.app */;
+			productType = "com.apple.product-type.application";
+		};
+		736F51362C1DE30700292EC1 /* wtvrTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 736F514E2C1DE30700292EC1 /* Build configuration list for PBXNativeTarget "wtvrTests" */;
+			buildPhases = (
+				736F51332C1DE30700292EC1 /* Sources */,
+				736F51342C1DE30700292EC1 /* Frameworks */,
+				736F51352C1DE30700292EC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				736F51392C1DE30700292EC1 /* PBXTargetDependency */,
+			);
+			name = wtvrTests;
+			productName = wtvrTests;
+			productReference = 736F51372C1DE30700292EC1 /* wtvrTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		736F51402C1DE30700292EC1 /* wtvrUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 736F51512C1DE30700292EC1 /* Build configuration list for PBXNativeTarget "wtvrUITests" */;
+			buildPhases = (
+				736F513D2C1DE30700292EC1 /* Sources */,
+				736F513E2C1DE30700292EC1 /* Frameworks */,
+				736F513F2C1DE30700292EC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				736F51432C1DE30700292EC1 /* PBXTargetDependency */,
+			);
+			name = wtvrUITests;
+			productName = wtvrUITests;
+			productReference = 736F51412C1DE30700292EC1 /* wtvrUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		736F511E2C1DE30400292EC1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					736F51252C1DE30400292EC1 = {
+						CreatedOnToolsVersion = 15.4;
+						LastSwiftMigration = 1540;
+					};
+					736F51362C1DE30700292EC1 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 736F51252C1DE30400292EC1;
+					};
+					736F51402C1DE30700292EC1 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 736F51252C1DE30400292EC1;
+					};
+				};
+			};
+			buildConfigurationList = 736F51212C1DE30400292EC1 /* Build configuration list for PBXProject "wtvr" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 736F511D2C1DE30400292EC1;
+			productRefGroup = 736F51272C1DE30400292EC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				736F51252C1DE30400292EC1 /* wtvr */,
+				736F51362C1DE30700292EC1 /* wtvrTests */,
+				736F51402C1DE30700292EC1 /* wtvrUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		736F51242C1DE30400292EC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				736F51312C1DE30600292EC1 /* Preview Assets.xcassets in Resources */,
+				736F512E2C1DE30600292EC1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		736F51352C1DE30700292EC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		736F513F2C1DE30700292EC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		736F51222C1DE30400292EC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				736F51592C1DF7CC00292EC1 /* Test2.mm in Sources */,
+				736F51562C1DE39B00292EC1 /* Test.m in Sources */,
+				736F512C2C1DE30400292EC1 /* ContentView.swift in Sources */,
+				736F512A2C1DE30400292EC1 /* wtvrApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		736F51332C1DE30700292EC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				736F513C2C1DE30700292EC1 /* wtvrTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		736F513D2C1DE30700292EC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				736F51462C1DE30700292EC1 /* wtvrUITests.swift in Sources */,
+				736F51482C1DE30700292EC1 /* wtvrUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		736F51392C1DE30700292EC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 736F51252C1DE30400292EC1 /* wtvr */;
+			targetProxy = 736F51382C1DE30700292EC1 /* PBXContainerItemProxy */;
+		};
+		736F51432C1DE30700292EC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 736F51252C1DE30400292EC1 /* wtvr */;
+			targetProxy = 736F51422C1DE30700292EC1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		736F51492C1DE30700292EC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CC = /usr/local/bin/clang;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMPILER_INDEX_STORE_ENABLE = NO;
+				COPY_PHASE_STRIP = NO;
+				CXX = "/usr/local/bin/clang++";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		736F514A2C1DE30700292EC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		736F514C2C1DE30700292EC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = wtvr/wtvr.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"wtvr/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mandelbrotsc.wtvr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "wtvr-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		736F514D2C1DE30700292EC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = wtvr/wtvr.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"wtvr/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mandelbrotsc.wtvr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "wtvr-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		736F514F2C1DE30700292EC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mandelbrotsc.wtvrTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wtvr.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/wtvr";
+			};
+			name = Debug;
+		};
+		736F51502C1DE30700292EC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mandelbrotsc.wtvrTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wtvr.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/wtvr";
+			};
+			name = Release;
+		};
+		736F51522C1DE30700292EC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mandelbrotsc.wtvrUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = wtvr;
+			};
+			name = Debug;
+		};
+		736F51532C1DE30700292EC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mandelbrotsc.wtvrUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = wtvr;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		736F51212C1DE30400292EC1 /* Build configuration list for PBXProject "wtvr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				736F51492C1DE30700292EC1 /* Debug */,
+				736F514A2C1DE30700292EC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		736F514B2C1DE30700292EC1 /* Build configuration list for PBXNativeTarget "wtvr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				736F514C2C1DE30700292EC1 /* Debug */,
+				736F514D2C1DE30700292EC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		736F514E2C1DE30700292EC1 /* Build configuration list for PBXNativeTarget "wtvrTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				736F514F2C1DE30700292EC1 /* Debug */,
+				736F51502C1DE30700292EC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		736F51512C1DE30700292EC1 /* Build configuration list for PBXNativeTarget "wtvrUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				736F51522C1DE30700292EC1 /* Debug */,
+				736F51532C1DE30700292EC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 736F511E2C1DE30400292EC1 /* Project object */;
+}
